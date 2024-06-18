@@ -1,0 +1,147 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+h1 {
+    color: rgb(71, 168, 248);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    color: black;
+    font-family:  sans-serif;
+    font-size: 1rem;
+}
+/*Search css */
+
+
+
+.search {
+    width: 80%;
+    
+    
+    
+}
+
+.search input {
+    width: 100%;
+    padding: 15px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+h2 {
+    margin-right: 70%;
+    font-size: 15px;
+
+}
+
+
+/* Cars css*/
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 80vh;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    margin: 50px 0 50px 0;
+
+}
+
+
+.left-card {
+    display: flex;
+    width: 45%;
+    background-color: white;
+    border-radius: 10%;
+    color: aliceblue;
+
+
+}
+
+.right-card {
+    display: flex;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.more-info {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(54, 19, 180);
+}
+
+
+.information {
+    width: 100%;
+}
+
+.photoList {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+#main-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.img-list {
+    flex-direction: row;
+    max-inline-size: 20%;
+    height: auto;
+    margin: 1%;
+    margin-top: 5%;
+    border-radius: 20%;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 1em;
+    word-spacing: 4px;
+}
